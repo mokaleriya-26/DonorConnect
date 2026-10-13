@@ -21,4 +21,12 @@ dist-ssr
 *.ntvs*
 *.njsproj
 *.sln
+# Environment variables
+.env
+.env.*
+!.env.example
+.env.test
+
+# Test and coverage
+coverage/
 *.sw?
