@@ -1,0 +1,18 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orbitGrad" x1="4" y1="4" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#A855F7"/>
+      <stop offset="60%" stopColor="#7541C8"/>
+      <stop offset="100%" stopColor="#452487"/>
+    </linearGradient>
+    <linearGradient id="sGrad" x1="12" y1="10" x2="32" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#9333EA"/>
+      <stop offset="100%" stopColor="#6B21A8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="22" cy="22" r="18" stroke="rgba(117,65,200,0.2)" stroke-width="1.5" stroke-dasharray="2 3"/>
+  <path d="M 22 4 A 18 18 0 1 1 5 26.5" stroke="url(#orbitGrad)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 20 1 L 27 4 L 20 7 Z" fill="#7541C8"/>
+  <path d="M 26 12 C 18 12 15 17 21 21 C 28 25 25 32 16 32 C 12 32 9.5 29.5 9 27" stroke="url(#sGrad)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="21" cy="21" r="2.5" fill="#A855F7"/>
+</svg>
